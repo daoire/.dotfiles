@@ -125,3 +125,8 @@ BASE16_SHELL=$HOME/.config/base16-shell/
 
 # alias tmux to get 256 colors working
 alias tmux='tmux -2'
+
+# setup for apache tomcat & java
+export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+export CATALINA_HOME=/opt/apache-tomcat-9
+
