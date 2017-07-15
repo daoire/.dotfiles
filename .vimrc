@@ -16,7 +16,6 @@ au FocusGained,BufEnter * :silent! !
 " auto-save when leaving buffer of losing focus
 au FocusLost,WinLeave * :silent! w
 
-
 "Moved these to ~/.vim/ftplugin/html.vim so they only operate in html files
 "imap ,. </<C-X><C-O><Esc>F<i
 "imap ,/ </<C-X><C-O><Esc>F<i<CR><Esc>O
